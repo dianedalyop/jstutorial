@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title> images
 
     </title>
 </head>
+
 <body>
     <h1> Hello </h1>
-    <button onclick="document.getElementById('myImage').src='435616.jpg'">Change image to color</button>
-    <img id="myImage" src="435616edt.jpg" style="width:500px">
+    <!--==============================================================-->
 
-    <button onclick="document.getElementById('myImage').src='435616edt.jpg'">Change image to b/w</button>
+    <p>changing the image</p>
+
+    <button onclick="document.getElementById('mypic').src='435616edt.jpg'"> change image to black and white</button>
+    <img id="mypic" src="435616.jpg" style="width:500px">
+    <button onclick="document.getElementById('mypic').src='435616.jpg'">change image to color </button>
+
+    <!--===========================================================================-->
 
     <p> Hiding Elements</p>
     <p id="Hidethis"> This will be hidden</p>
     <button type="button" onclick="document.getElementById('Hidethis').style.display='none'"> click here </button>
-
-
     <button type="button" onclick="document.getElementById('Hidethis').style.display='block'"> click </button>
 
+    <!--===========================================================================-->
     <p> Hiding and display images</p>
-    <img id = "images" src ="" style="width:300px">
+    <img id="images" src="coffee.png" style="width:300px" hidden>
+    <button onclick="document.getElementById('images').style.display='block'"> display image </button>
+
+    <button onclick="document.getElementById('images').style.display='none'"> hide image </button>
+
+
+
+
+
+
 </body>
 
 </html>
