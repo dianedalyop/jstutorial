@@ -31,11 +31,43 @@
 
     <button onclick="document.getElementById('images').style.display='none'"> hide image </button>
 
+    <script>
+        function changefunction() {
+
+            document.getElementById("demo").innerHTML = "paragraph changed";
 
 
+        }
+        function change2(){
 
+            document.getElementById("demo").innerHTML = "QWERTY ASDF";
+        }
 
+        window.alert(5 + 6);
+
+    </script>
+<p>This paragraph Will change</p>
+<p id="demo">QWERTY ASDF</p>
+    <button type="button" onclick="changefunction()"> click to change</button>
+    <button type="button" onclick="change2()"> click to reset </button>
 
 </body>
+
+<!--=========== will change david jr to  "a new name"=====================================-->
+
+<p> with an external script </p>
+
+<p id="demo2"> David JR </p>
+<button type="button" onclick="exfile()"> try it </button>
+
+
+<p id="demo3"></p>
+
+<button type="button" onclick="exfile2()"> 5+6 </button>
+
+<button type="button" onclick="replace()"> overwrite </button>
+
+<p id="demo4"></p>
+<script src="jsff.js"></script>
 
 </html>
