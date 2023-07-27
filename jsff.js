@@ -19,3 +19,28 @@ y = 6;
 z = x + y;
 
 document.getElementById("demo4").innerHTML = "The value of z is "+ z + ".";
+
+
+function changeps() {
+
+    document.getElementById("p1").innerHTML = "My name is diane";
+    document.getElementById("p2").innerHTML = "Iam learning javascript";
+
+
+    const cars = ["Saab", "Volvo" , "BMW"] ;
+
+    // change element:
+
+    cars[0] = "Toyota";
+
+    // add an element
+
+    cars.push("Audi");
+
+    // Display the Array
+
+    document.getElementById("Demo").innerHTML = cars;
+
+
+}
+
