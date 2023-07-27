@@ -39,7 +39,7 @@ function changeps() {
 
     // Display the Array
 
-    document.getElementById("Demo").innerHTML = cars;
+    document.getElementById("p2").innerHTML = cars;
 
 
 }
