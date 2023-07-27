@@ -41,6 +41,17 @@ function changeps() {
 
     document.getElementById("p2").innerHTML = cars;
 
+    const  cars2 = {type:"Fait ", model:"500", color: "red"};
+
+    // changing and adding
+
+    cars2.color = "red";
+
+    cars2.owner = "'johnson";
+
+    // call
+
+    document.getElementById("p1").innerHTML = "car owner is "+ cars2.owner + "the car color is "+ cars2.color;
 
 }
 
